@@ -23,7 +23,8 @@ class App extends Component {
 
   componentDidMount(){
     this.readApartment()
-    document.title = "T-Town Apartment Finder"
+    //Replace title line via generating Devise View(s) and modifying title in erb file
+    // document.title = "T-Town Apartment Finder"
   }
   
   readApartment = () => {
